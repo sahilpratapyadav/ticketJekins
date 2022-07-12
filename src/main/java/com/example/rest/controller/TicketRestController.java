@@ -17,6 +17,7 @@ public class TicketRestController {
 	@Autowired
 	//1
 	int k=5;
+	int m=9;
 	private TicketServiceImpl serv;
 
 	@GetMapping(value = "/ticket", consumes = { "application/json", "application/xml" }, produces = {
